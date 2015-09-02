@@ -1,0 +1,91 @@
+
+html {
+}
+
+body {
+    background: url(images/bg.png) center repeat-y;
+    background-color:#FFFDE7; /*#FFFDE7*/
+    /*background-size:cover;*/
+    /*background-image: url("images/bg.png");*/
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Small devices (tablets, 768px and below) */
+@media (max-width: 687px) {
+    body {
+        background-size: 94%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    margin-bottom:10px;
+}
+
+.header {
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:80px;
+}
+
+.header-text {
+    font-family: "Lobster","Times New Roman", Times, cursive;
+    color:#003C00;
+}
+
+.header img{
+    display: block;
+    margin: 0 auto;
+}
+
+.centered {
+    text-align:center;
+}
+
+.lobster {
+    font-family: "Lobster","Times New Roman", Times, cursive;
+}
+
+.green {
+    color:#003C00;
+}
+
+.item {
+    margin-bottom:80px;
+}
+
+.item-img{
+    text-align:center;
+    line-height:222px;    /* Deve eguagliare la dimensione dell'immagine onmouseover + 2px */
+}
+
+.item-img img {
+    vertical-align: middle;
+}
+
+.item-title {
+    display: table;
+    font-family: 'Pinyon Script',"Times New Roman", Times, cursive;
+}
+
+.item-title h2 {
+    height:222px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Small devices (tablets, 768px and below) */
+@media (max-width: 768px) {
+    .item-title h2 {
+        height: auto;
+        display: block;
+        text-align:center;
+    }
+}
+
+.debug {
+    border:1px solid;
+}

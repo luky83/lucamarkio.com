@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Who is Luca Markio?">
+    <meta name="author" content="Luca Marchiorello">
+    <!-- link rel="icon" href="../../favicon.ico" -->
+
+    <title>Who is Luca Markio?</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pinyon+Script" rel="stylesheet" type="text/css">
+    
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer.css" rel="stylesheet">
+    
+    <link href="stylesheet.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="header">
+                    <img src="images/lucamarkio_logo_half_transparent.png" alt="lucamarkio.com logo" class="img-responsive"/>
+                    <h3 class="header-text">Versatile Developer</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row item">
+            <a name="csttech"></a>
+            <div class="col-sm-4 item-img">
+                <a href="#csttech">
+                    <img src="images/logo-cst.png" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="img-circle" alt="handcrafted circuit" width="180" height="180"/>
+                </a>
+            </div>
+            <div class="col-sm-8 item-title">
+                <h2>2014/09 to present - Software developer at <a href="http:\\www.csttech.it" target="_blank">CST Technobank</a></h2>
+            </div>
+        </div>
+        
+        <div class="row item">
+            <a name="theurbanreef"></a>
+            <div class="col-sm-4 item-img">
+                <a href="#theurbanreef">
+                    <img src="images/logo-tur.png" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="img-circle" alt="handcrafted circuit" width="180" height="180"/>
+                </a>
+            </div>
+            <div class="col-sm-8 item-title">
+                <h2>2012 to present - Founder and maker at <a href="http:\\www.theurbanreef.it" target="_blank">The Urban Reef</a></h2>
+            </div>
+        </div>
+        
+        <div class="row item">
+            <a name="mekts"></a>
+            <div class="col-sm-4 item-img">
+                <a href="#mekts">
+                    <img src="images/logo-mekts.png" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="img-circle" alt="handcrafted circuit" width="180" height="180"/>
+                </a>
+            </div>
+            <div class="col-sm-8 item-title">
+                <h2>2011 to present - Software consultant and developer at <a href="http://www.mekts.com/" target="_blank">Mitsubishi Eletric Klimat Transportation Systems</a></h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <a href="contacts.php"><h3 class="item centered lobster">Contacts</h3></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Copyright &copy; <?php echo date("Y"); ?> - Luca Marchiorello - All rights reserved.</p>
+      </div>
+    </footer>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+    function bigImg(x) {
+        x.style.height = "220px";
+        x.style.width = "220px";
+    }
+    
+    function normalImg(x) {
+        x.style.height = "180px";
+        x.style.width = "180px";
+    }
+    </script>
+  </body>
+</html>
