@@ -51,7 +51,7 @@
                 </a>
             </div>
             <div class="col-sm-8 item-title">
-                <h2>2014/09 to present - Software developer at <a href="http:\\www.csttech.it" target="_blank">CST Technobank</a></h2>
+                <h2>Software developer at <a href="http:\\www.csttech.it" target="_blank">CST Technobank</a></h2>
             </div>
         </div>
         
@@ -63,7 +63,7 @@
                 </a>
             </div>
             <div class="col-sm-8 item-title">
-                <h2>2012 to present - Founder and maker at <a href="http:\\www.theurbanreef.it" target="_blank">The Urban Reef</a></h2>
+                <h2>Founder and maker at <a href="http:\\www.theurbanreef.it" target="_blank">The Urban Reef</a></h2>
             </div>
         </div>
         
@@ -75,7 +75,7 @@
                 </a>
             </div>
             <div class="col-sm-8 item-title">
-                <h2>2011 to present - Software consultant and developer at <a href="http://www.mekts.com/" target="_blank">Mitsubishi Eletric Klimat Transportation Systems</a></h2>
+                <h2>Software consultant and developer at <a href="http://www.mekts.com/" target="_blank">Mitsubishi Eletric Klimat Transportation Systems</a></h2>
             </div>
         </div>
         
