@@ -68,6 +68,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src='https://www.google.com/recaptcha/api.js?render=6LdMSnwUAAAAAI0BYAxyQkKZhJIMQsMPLMtg1sV_'></script>
   </head>
 
   <body>
@@ -109,13 +110,6 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 </div>
                 <div class="col-sm-2"></div>
             </div>
-            <!--<div class="form-group">-->
-            <!--    <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>-->
-            <!--    <div class="col-sm-10">-->
-            <!--        <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">-->
-            <!--        <?php //echo "<p class='text-danger'>$errHuman</p>";?>-->
-            <!--    </div>-->
-            <!--</div>-->
             <div class="form-group">
                 <div class="col-sm-8 col-sm-offset-2">
                     <input id="submit" name="submit" type="submit" value="Fire!" class="btn btn-primary">
@@ -142,11 +136,17 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     
-    
+    <script>
+        grecaptcha.ready(function() {
+        grecaptcha.execute('6LdMSnwUAAAAAI0BYAxyQkKZhJIMQsMPLMtg1sV_', {action: 'action_name'})
+        .then(function(token) {
+        // Verify the token on the server.
+        });
+        });
+    </script>
     <!-- Piwik -->
     <script type="text/javascript">
       var _paq = _paq || [];
-      _paq.push(['disableCookies']);
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
