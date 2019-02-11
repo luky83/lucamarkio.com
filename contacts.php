@@ -69,6 +69,15 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src='https://www.google.com/recaptcha/api.js?render=6LdMSnwUAAAAAI0BYAxyQkKZhJIMQsMPLMtg1sV_'></script>
+    <script>
+        grecaptcha.ready(function() {
+        grecaptcha.execute('6LdMSnwUAAAAAI0BYAxyQkKZhJIMQsMPLMtg1sV_', {action: 'contacts'})
+        .then(function(token) {
+            var recaptchaResponse = document.getElementById('recaptchaResponse');
+            recaptchaResponse.value = token;
+        });
+        });
+    </script>
   </head>
 
   <body>
@@ -121,6 +130,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 </div>
                 <div class="col-sm-2"></div>
             </div>
+            <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
         </form> 
 				
     </div>
@@ -136,14 +146,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     
-    <script>
-        grecaptcha.ready(function() {
-        grecaptcha.execute('6LdMSnwUAAAAAI0BYAxyQkKZhJIMQsMPLMtg1sV_', {action: 'action_name'})
-        .then(function(token) {
-        // Verify the token on the server.
-        });
-        });
-    </script>
+    
     <!-- Piwik -->
     <script type="text/javascript">
       var _paq = _paq || [];
